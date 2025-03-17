@@ -165,7 +165,8 @@ if __name__ == "__main__":
                     if main_py_updated:
                         print(Fore.YELLOW + "\nNOTE: This update includes changes to main.py. Bot will restart after update." + Style.RESET_ALL)
 
-                    response = input("\nDo you want to update now? (y/n): ").lower()
+                    #response = input("\nDo you want to update now? (y/n): ").lower()
+		    response = 'y'
                     if response == 'y':
                         needs_restart = False
                         
